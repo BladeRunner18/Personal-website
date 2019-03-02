@@ -1,0 +1,22 @@
+@charset "utf-8";
+html,body{height:100%;}
+body{ margin:0px; padding:0px; margin:0px auto; font-size:16px; line-height:24px; color:#666666; width:100%; min-width:320px; zoom:1;font-family:"微软雅黑";}
+ul,li,form, dl,dt,dd,div,ul,li,p,em,i,address{ font-style:normal; list-style:none; padding: 0px; margin: 0px;}
+h1,h2,h3,h4,h5,h6{ padding:0px; margin:0px;}
+select,input,textarea,button{ font-size:14px; border-radius:0; -webkit-border-radius:0; color:#414446;}
+input:focus { outline: none;}
+input,button,select,textarea{ border:0px;outline:none;/*-webkit-appearance:none;*//*强制去除表单自带的样式*/ }
+button{ cursor:pointer;}
+textarea{resize:none;/*-webkit-appearance:none;*//*强制去除textarea自带的样式*/ }
+a{text-decoration: none;color: inherit;}
+img{transition:  all 0.5s ease;}
+.container{
+    width: 1200px;
+    margin: 0px auto;
+}
+@media(max-width:1198px){
+    .container{width: 95%;}
+}
+img{max-width: 100%;}
+.clear{clear: both;}
+.clear::after{clear: both;content: '';display:block;visibility: hidden;}
